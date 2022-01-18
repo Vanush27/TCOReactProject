@@ -1,0 +1,13 @@
+.form-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: end;
+    margin:10px 0;
+}
+.form-group > label {
+    text-align: start;
+
+}
+.error_message{
+    color: red;
+}

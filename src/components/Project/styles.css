@@ -1,0 +1,14 @@
+.heading1 {
+    text-align: center;
+    color: #02955b;
+    margin: 40px;
+}
+.project-container {
+    width: 100%;
+    min-height: 450px;
+}
+.add_btn {
+    background-color: #02955b !important;
+    border-color: #02955b !important;
+    margin: 5px !important;
+}

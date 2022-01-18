@@ -1,0 +1,59 @@
+.must-do-text {
+    color: #a29dae;
+    font-weight: 600;
+}
+
+.card {
+    min-height: 400px;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 12px;
+}
+.card:hover{
+    box-shadow: 0 0 20px #00000028;
+}
+.title-card-left{
+    width: 95%;
+    padding: 5px;
+}
+.title-card-right{
+    width: 5%;
+    font-size: 28px!important;
+}
+
+.title-card{
+    display: flex;
+    justify-content: space-between;
+}
+.bigDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.status-text {
+    font-size: 19px;
+    font-weight: 600;
+    min-height: calc(400px - 300px);
+
+}
+.status-done {
+    color: rgb(0, 18, 182);
+}
+.status-active {
+    color: rgb(9, 255, 0);
+}
+.mr-2 {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        min-height: 400px;
+        max-width: 350px;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+}

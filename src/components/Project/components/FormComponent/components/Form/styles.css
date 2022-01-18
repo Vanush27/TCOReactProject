@@ -1,0 +1,16 @@
+.form {
+    max-width: 500px;
+    display: grid;
+    margin: 100px auto;
+}
+
+.subBtn {
+    width: 150px;
+    margin: 30px auto;
+    background-color: #02955b !important;
+    border-color: #02955b !important;
+}
+
+input {
+    padding: 5px;
+}
